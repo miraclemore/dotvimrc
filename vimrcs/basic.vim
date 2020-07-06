@@ -23,54 +23,54 @@ call plug#begin(s:plugged_dir)
     Plug 'skywind3000/gutentags_plus'
     Plug 'jlanzarotta/bufexplorer'
     Plug 'ctrlpvim/ctrlp.vim'
-	" Plug 'jonathanfilip/vim-lucius'
-	" Plug 'sainnhe/vim-color-forest-night'
+    " Plug 'jonathanfilip/vim-lucius'
+    " Plug 'sainnhe/vim-color-forest-night'
 
-	" Plug 'AndrewRadev/splitjoin.vim'
-	" Plug 'chrisbra/unicode.vim', {'on': ['UnicodeName', 'UnicodeTable']}
-	" Plug 'easymotion/vim-easymotion', {'on': '<plug>(easymotion-s2)'}
-	" Plug 'godlygeek/csapprox', {'for': 'fugitiveblame' }
-	Plug 'junegunn/fzf', has('win32') ? {} : {'on': 'FZF', 'dir': '~/local/fzf', 'do': './install --bin'}
-	" Plug 'junegunn/gv.vim', {'on': 'GV'}
-	" Plug 'junegunn/vader.vim'
-	" Plug 'junegunn/vim-easy-align', {'on': '<plug>(LiveEasyAlign)'}
-	" Plug 'junegunn/vim-plug'
-	" Plug 'justinmk/vim-dirvish'
-	Plug 'majutsushi/tagbar', {'on': 'TagbarToggle'}
-	" Plug 'mbbill/undotree', {'on': 'UndotreeToggle'}
-	" Plug 'rhysd/committia.vim'
-	" Plug 'tpope/vim-commentary'
-	" Plug 'tpope/vim-endwise'
-	" Plug 'tpope/vim-fugitive'
-	" Plug 'tpope/vim-rhubarb'
-	" Plug 'tpope/vim-rsi'
-	" Plug 'tpope/vim-scriptease'
-	" Plug 'tpope/vim-surround'
-	" Plug 'tweekmonster/helpful.vim', {'on': 'MANUALLY'}
+    " Plug 'AndrewRadev/splitjoin.vim'
+    " Plug 'chrisbra/unicode.vim', {'on': ['UnicodeName', 'UnicodeTable']}
+    " Plug 'easymotion/vim-easymotion', {'on': '<plug>(easymotion-s2)'}
+    " Plug 'godlygeek/csapprox', {'for': 'fugitiveblame' }
+    Plug 'junegunn/fzf', has('win32') ? {} : {'on': 'FZF', 'dir': '~/local/fzf', 'do': './install --bin'}
+    " Plug 'junegunn/gv.vim', {'on': 'GV'}
+    " Plug 'junegunn/vader.vim'
+    " Plug 'junegunn/vim-easy-align', {'on': '<plug>(LiveEasyAlign)'}
+    " Plug 'junegunn/vim-plug'
+    " Plug 'justinmk/vim-dirvish'
+    Plug 'majutsushi/tagbar', {'on': 'TagbarToggle'}
+    " Plug 'mbbill/undotree', {'on': 'UndotreeToggle'}
+    " Plug 'rhysd/committia.vim'
+    " Plug 'tpope/vim-commentary'
+    " Plug 'tpope/vim-endwise'
+    " Plug 'tpope/vim-fugitive'
+    " Plug 'tpope/vim-rhubarb'
+    " Plug 'tpope/vim-rsi'
+    " Plug 'tpope/vim-scriptease'
+    " Plug 'tpope/vim-surround'
+    " Plug 'tweekmonster/helpful.vim', {'on': 'MANUALLY'}
 
-	" Plug 'rust-lang/rust.vim', {'for': 'rust'}
-	" Plug 'rhysd/rust-doc.vim', {'for': 'rust'}
-	" Plug 'lifepillar/pgsql.vim', {'for': 'sql'}
-	" Plug 'mattn/emmet-vim', {'for': 'html'}
-	" Plug 'AndrewRadev/tagalong.vim', {'for': 'html'}
-	" Plug 'pangloss/vim-javascript'
-	" Plug 'HerringtonDarkholme/yats.vim'
-	" Plug 'elixir-lang/vim-elixir'
+    " Plug 'rust-lang/rust.vim', {'for': 'rust'}
+    " Plug 'rhysd/rust-doc.vim', {'for': 'rust'}
+    " Plug 'lifepillar/pgsql.vim', {'for': 'sql'}
+    " Plug 'mattn/emmet-vim', {'for': 'html'}
+    " Plug 'AndrewRadev/tagalong.vim', {'for': 'html'}
+    " Plug 'pangloss/vim-javascript'
+    " Plug 'HerringtonDarkholme/yats.vim'
+    " Plug 'elixir-lang/vim-elixir'
 
-	" let g:plug_url_format = 'git@github.com:%s.git'
-	" Plug 'mhinz/nvim-langserver'
-	" Plug 'mhinz/nvim-panacea', {'for': 'elixir'}
-	" Plug 'mhinz/vim-crates'
-	" Plug 'mhinz/vim-grepper'
-	" Plug 'mhinz/vim-halo'
-	" Plug 'mhinz/vim-lookup'
-	" Plug 'mhinz/vim-mix-format'
-	" Plug 'mhinz/vim-rfc'
-	" Plug 'mhinz/vim-sayonara', {'on': 'Sayonara'}
-	" Plug 'mhinz/vim-signify'
-	" Plug 'mhinz/vim-startify'
-	" Plug 'mhinz/vim-tree'
-	" unlet! g:plug_url_format
+    " let g:plug_url_format = 'git@github.com:%s.git'
+    " Plug 'mhinz/nvim-langserver'
+    " Plug 'mhinz/nvim-panacea', {'for': 'elixir'}
+    " Plug 'mhinz/vim-crates'
+    " Plug 'mhinz/vim-grepper'
+    " Plug 'mhinz/vim-halo'
+    " Plug 'mhinz/vim-lookup'
+    " Plug 'mhinz/vim-mix-format'
+    " Plug 'mhinz/vim-rfc'
+    " Plug 'mhinz/vim-sayonara', {'on': 'Sayonara'}
+    " Plug 'mhinz/vim-signify'
+    " Plug 'mhinz/vim-startify'
+    " Plug 'mhinz/vim-tree'
+    " unlet! g:plug_url_format
 call plug#end()
 
 
